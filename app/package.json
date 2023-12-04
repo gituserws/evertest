@@ -31,6 +31,9 @@
   },
   "author": "The Nguyen (https://evershop.io)",
   "license": "GNU GENERAL PUBLIC LICENSE 3.0",
+  "dependencies": {
+    "@evershop/evershop": "^1.0.0-rc.8"
+  },
   "devDependencies": {
     "@babel/cli": "^7.15.7",
     "@babel/core": "^7.14.8",

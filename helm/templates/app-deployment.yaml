@@ -36,7 +36,8 @@ spec:
               value: "5432"
             - name: DB_USER
               value: postgres
-          image: evershop/evershop:latest
+          # image: evershop/evershop:latest
+          image: acrelo32.azurecr.io/demo-container:v1
           name: app
           ports:
             - containerPort: 3000

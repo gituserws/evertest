@@ -4,7 +4,7 @@ RUN npm install -g npm@9
 COPY package*.json .
 COPY themes .
 # COPY extensions .
-COPY theme/eve/public .
+# COPY themes/eve/public .
 # COPY media .
 COPY config .
 COPY translations .
